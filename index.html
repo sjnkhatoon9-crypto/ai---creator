@@ -1,0 +1,83 @@
+html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Creator</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #10101a;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #aaa;
+    }
+
+    textarea {
+      width: 100%;
+      height: 120px;
+      margin-top: 20px;
+      padding: 15px;
+      box-sizing: border-box;
+      border-radius: 12px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      resize: none;
+    }
+
+    button {
+      width: 100%;
+      padding: 15px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .image-btn {
+      background: #6c5ce7;
+      color: white;
+    }
+
+    .video-btn {
+      background: #e84393;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>✨ AI Creator</h1>
+    <p>Generate Images & Videos with AI</p>
+
+    <textarea placeholder="Apni story ya image/video ka prompt likho..."></textarea>
+
+    <button class="image-btn">🖼️ Generate Image</button>
+
+    <button class="video-btn">🎬 Generate Video</button>
+
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
